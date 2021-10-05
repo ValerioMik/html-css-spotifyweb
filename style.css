@@ -19,7 +19,7 @@
 }
 
 #playlist{
-    float: right;
+    float: left;
     width: 200px;
     height: 100%;
     /* regole debug */
@@ -27,7 +27,7 @@
 }
 
 #contplayed{
-    float: right;
+    float: left;
     width: calc(100% - 200px);
     height: 100%;
     /* regole debug */
@@ -44,12 +44,211 @@
     
 }
 
+#played{
+    height: calc(100vh - 200px);
+    /* regoledebub */
+    background-color: magenta;
+}
+
+/* regole contenuto playlist */
+
+#contlogo{
+    height: 100px;
+    width: auto;
+    /* regole debiug */
+    background-color: rgb(0, 0, 0);
+}
+
+#logo{
+    margin: 20px 10px;
+    width: 170px;
+   
+}
+
+.contenitore_menusx{
+    height: calc(100vh - 300px);
+}
+
+.haburger{
+    /* regoledebug */
+   background-color: rgb(209, 206, 18);
+   height: 70px;
+
+   
+}
+
+.creaplay{
+      /* regoledebug */
+   background-color: rgb(251, 152, 226);
+   height: 100px;
+
+   
+}
+
+.appfissa{
+    height: 100px;
+      /* regoledebug */
+   background-color: rgb(0, 53, 0);
+  
+}
 
 
 /* regole player */
 
 #player{
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     /* regole debug */
     background-color: black;
 }
+
+.coversx{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: palegreen;
+}
+.img_cover{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.titolocover{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.salva{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* regole debug */
+    height: 50px;
+    background-color: palegreen;
+}
+
+.cuore{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.salvafile{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+
+
+.avanzamento{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* regole debug */
+    height: 50px;
+    background-color: palegreen;
+}
+
+.random{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.indietro{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.botton_play{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.avnti{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.ripeti{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+
+.volume{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* regole debug */
+    height: 50px;
+    background-color: palegreen;
+
+
+}
+
+.menupallini{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.condividi_schermo{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.microfono{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+.barra{
+    width: 50px;
+    margin: 0 20px;
+    /* regole debug */
+    height: 40px;
+    background-color: plum;
+}
+
+
