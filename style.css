@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* regole wrap */
+
+#wrap{
+    height: calc(100vh - 100px);
+    /* regole debug */
+    background-color: darkblue;
+
+}
+#wrap::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#playlist{
+    float: right;
+    width: 200px;
+    height: 100%;
+    /* regole debug */
+    background-color: darkslategrey;
+}
+
+#contplayed{
+    float: right;
+    width: calc(100% - 200px);
+    height: 100%;
+    /* regole debug */
+    background-color: gold;
+}
+
+
+
+#upgrade{
+
+ height: 100px;
+ background-color: lightgray;
+ opacity: 0.5;
+    
+}
+
+
+
+/* regole player */
+
+#player{
+    height: 100px;
+    /* regole debug */
+    background-color: black;
+}
