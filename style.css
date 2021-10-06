@@ -9,7 +9,7 @@
 #wrap{
     height: calc(100vh - 100px);
     /* regole debug */
-    background-color: darkblue;
+    background-color:rgb(37, 41, 53);;
 
 }
 #wrap::after{
@@ -26,28 +26,65 @@
     background-color: darkslategrey;
 }
 
+.contbottone{
+    width: 210px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 3px white;
+    opacity: unset;
+    text-align: center;
+    padding: 6px;
+    
+   
+  
+}
+
 #contplayed{
     float: left;
     width: calc(100% - 200px);
     height: 100%;
     /* regole debug */
-    background-color: gold;
+   
 }
 
 
 
-#upgrade{
-
+.upgrade{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
  height: 100px;
- background-color: lightgray;
- opacity: 0.5;
+ background-color: black;
+ opacity: .1;
     
 }
 
 #played{
     height: calc(100vh - 200px);
     /* regoledebub */
-    background-color: magenta;
+    background-color: rgb(37, 41, 53);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(145, 145, 138);
+    margin: 0px 10px;
+}
+
+a:hover{
+color: rgb(255, 255, 255);
+}
+li{
+    display: inline;
+}
+
+.sottolineato{
+    border-bottom: 2px solid greenyellow;
+}
+
+ul{
+    text-align: center;
+   padding-top: 20px;
 }
 
 /* regole contenuto playlist */
@@ -67,15 +104,16 @@
 
 .contenitore_menusx{
     height: calc(100vh - 300px);
+    background-color: black;
 }
 
 .haburger{
-    /* regoledebug */
-   background-color: rgb(209, 206, 18);
-   height: 70px;
+  height: auto;
+  
 
    
 }
+
 
 .creaplay{
       /* regoledebug */
