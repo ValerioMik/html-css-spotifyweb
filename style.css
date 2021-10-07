@@ -11,9 +11,7 @@ font-family: 'Open Sans', sans-serif;
 
 #wrap{
     height: calc(100vh - 100px);
-    /* regole debug */
-    background-color:rgb(37, 41, 53);;
-
+   
 }
 #wrap::after{
     content: "";
@@ -25,8 +23,8 @@ font-family: 'Open Sans', sans-serif;
     float: left;
     width: 200px;
     height: 100%;
-    /* regole debug */
-    background-color: darkslategrey;
+   
+    background-color: rgb(0, 0, 0);
 }
 
 .contbottone{
@@ -170,9 +168,25 @@ h2{
 
 .appfissa{
     height: 100px;
-      /* regoledebug */
-   background-color: rgb(0, 53, 0);
-  
+}
+
+hr{
+    margin-left: 9px;
+    margin-right: 45px;
+    margin-top: 11px;
+}
+
+.cerchio{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: gray;
+    margin: 10px 10px 10px ;
+}
+
+.span{
+    color: white;
 }
 
 .downlo{
@@ -189,7 +203,7 @@ h1{
 
 .contenitore_canzoni{
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
     width: 100%;
     height: auto;
 }
@@ -201,6 +215,18 @@ h1{
     margin: 25px 25px;
 }
 
+
+#seconda{
+    margin: 215px 25px 25px 25px;
+}
+.immaginiterza{
+    width: 200px;
+    height: 200px;
+    margin: 25px 25px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
 p{
     text-align: center;
     color: white;
@@ -208,16 +234,11 @@ p{
 }
 
 #playhover{
-    overflow: hidden;
-    position: absolute;
-    display: none;
-    top: 34%;
-    left: 15%;
-    font-size: 51px;
+    
 }
 
 #playhover:hover{
-    display: block;
+  
 }
 
 .playhover:hover{
@@ -249,53 +270,36 @@ p{
 
 .coversx{
     width: auto;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: palegreen;
+    
+   
 }
+
+
 .img_cover{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
+   width: 100%;
+   height: 100%;
+  
 }
 
-.titolocover{
+.titolocover1{
     width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
-.salva{
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* regole debug */
     height: 50px;
-    background-color: palegreen;
+    margin: 0 20px;
+    overflow: hidden;
+  
+   
 }
 
-.cuore{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
+.titolocover2{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
 }
 
-.salvafile{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
 
 
 
@@ -305,50 +309,17 @@ p{
     align-items: center;
     justify-content: space-between;
     /* regole debug */
-    height: 50px;
-    background-color: palegreen;
 }
 
-.random{
+
+
+.pulsanti{
     width: 50px;
-    margin: 0 20px;
+    margin: 0 0px;
     /* regole debug */
-    height: 40px;
-    background-color: plum;
+    color: white;
+   
 }
-
-.indietro{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
-.botton_play{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
-.avnti{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
-.ripeti{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
 
 .volume{
     width: auto;
@@ -356,42 +327,41 @@ p{
     align-items: center;
     justify-content: space-between;
     /* regole debug */
-    height: 50px;
-    background-color: palegreen;
-
-
 }
 
-.menupallini{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
+
+.fa-play-circle{
+    font-size: 30px;
 }
 
-.condividi_schermo{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
-}
-
-.microfono{
-    width: 50px;
-    margin: 0 20px;
-    /* regole debug */
-    height: 40px;
-    background-color: plum;
+.fas,.far{
+    color: white;
 }
 
 .barra{
     width: 50px;
     margin: 0 20px;
     /* regole debug */
-    height: 40px;
-    background-color: plum;
+   
 }
+
+.barra_scorrimento{
+
+    width: 200px;
+    height: 2px;
+    background-color: grey;
+    display: inline;
+    
+}
+
+.scorrimento{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    
+
+}
+
+
 
 
