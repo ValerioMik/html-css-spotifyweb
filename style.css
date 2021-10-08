@@ -108,6 +108,9 @@ ul{
     width: 170px;
    
 }
+#logopiccolo{
+    display: none;
+}
 
 .contenitore_menusx{
     height: calc(100vh - 300px);
@@ -203,7 +206,7 @@ h1{
 
 .contenitore_canzoni{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     width: 100%;
     height: auto;
 }
@@ -363,5 +366,64 @@ p{
 }
 
 
+
+@media all and (max-width: 706px){
+
+    #playlist{
+        width: 50px;
+
+    }
+
+    .contenitore_canzoni{
+        
+        flex-wrap: wrap;
+    }
+
+    .imghamburger{
+        color: white;
+    }
+
+    #contplayed{
+        width: calc(100% - 50px);
+    }
+
+    .upgrade{
+
+        width: calc(100vw - 50px);
+    }
+
+    #scomp{
+        display: none;
+    }
+
+    #premuto{
+        display: none;
+    }
+
+    .creaplay,.prof, #logo{
+        display: none;
+    }
+
+    #logopiccolo{
+        display: inline;
+        width: 45px;
+        margin: 3px;
+    }
+
+    
+}
+
+@media all and (max-width: 1440px){
+
+    .contenitore_canzoni{
+        
+        flex-wrap: wrap;    
+    }
+
+    .immaginicopertina{
+        margin: 90px 25px;
+
+    }
+}
 
 
